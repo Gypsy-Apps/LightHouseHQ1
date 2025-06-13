@@ -18,59 +18,39 @@ LighthouseHQ is a streamlined web-based admin platform designed to help property
    ```bash
    git clone https://github.com/YOUR_USERNAME/LighthouseHQ.git
    cd LighthouseHQ
+   
 Install dependencies:
-
-bash
-Copy
-Edit
 npm install
+
 Set up .env:
-
 Create a .env file in the root with your Supabase credentials:
-
-env
-Copy
-Edit
 VITE_SUPABASE_URL=your-supabase-url
 VITE_SUPABASE_ANON_KEY=your-anon-key
-Run locally:
 
-bash
-Copy
-Edit
+Run locally:
 npm run dev
+
 🛡 Security
 This project uses Row-Level Security (RLS) in Supabase. Only authenticated users can view or add tasks related to their own user ID.
 
 🧙 Built With
 React
-
 Supabase
-
 Bolt.new
-
 TailwindCSS
 
 📂 Project Structure
-css
-Copy
-Edit
 src/
 ├── components/    → Shared UI and logic components (Auth, Task Dialog, etc.)
 ├── pages/         → Main views (Dashboard, Tasks, Reports)
 ├── supabaseClient.js
 ├── App.jsx
 └── index.css
+
 📦 Deployment
 Can be deployed to Vercel, Netlify, or your own hosting.
 
 Built with 💡 by Joyce Berkner
-
-yaml
-Copy
-Edit
-
----
 
 ### 🛠 `.gitignore`
 
